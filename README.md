@@ -13,9 +13,7 @@ This is an example using Nodejs to securely query the Xirsys API from a serversi
 ```
 npm install express
 ```
-
 2.  Open the server.js file included in the download, in any text editor.
-
 3.  Update the credentials for your account at the top of the document adding your ident, your secret token and domain information.
 ```
 	var ident = 'jerrychabolla';
@@ -24,13 +22,11 @@ npm install express
 	var application = 'default';// '[Optional Application]'
 	var room = 'default';//'[Optional Room]';
 ```
-
 4.  Add your secure certificate and key or create a self signed one.
 ```
 key:fs.readFileSync(path.join( __dirname, 'server.key')),
 cert:fs.readFileSync(path.join( __dirname, 'server.crt'))
 ```
-
 5.  From Terminal or a DOS prompt run the server file.
 ```
 node server
