@@ -1,0 +1,22 @@
+{
+  "name": "secure-webrtc-auth-node",
+  "version": "1.0.0",
+  "description": "Invent Example-Securing WebRTC authentication with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Invent",
+    "examples",
+    "webrtc",
+    "iot",
+    "nodejs"
+  ],
+  "author": "Invent Platform, Influxis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
