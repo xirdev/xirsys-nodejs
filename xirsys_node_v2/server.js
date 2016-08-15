@@ -10,11 +10,11 @@ var srvPort = 8000;
 var rtcAPI = 'service.xirsys.com';
 
 // API Details - See Your Xirsys Account for Details
-var ident = '[Your Invent Ident (not email)]';
-var secret = '[Your Secret Token]';
-var domain = '[www.YourDomain.com]';
-var application = 'default';// '[Optional Application]'
-var room = 'default';//'[Optional Room]';
+var ident = 'username'; //your username
+var secret = 'fd50934c-57a5-4ad8-8d11-acae5786bcfb'; //your secret key
+var domain = 'www.mydomain.com'; //your username
+var application = 'default'; //your application name
+var room = 'default'; //your room name
 
 //SSL certificate.  Webrtc needs to be in a secure domain to do Audio / Video Sharing.
 var opts = {

@@ -1,5 +1,5 @@
 
-This is an example using Nodejs to securely query the Xirsys API from a serverside counterpart.  Although we are using Nodejs in this example you can also use other technologies like PHP, Java C# and the sort.
+This is an example using Nodejs to securely query the Xirsys API from a serverside counterpart. Although we are using Nodejs in this example you can also use other technologies like PHP, Java, C# or whatever you prefer.
 
 1.  Download and install the express module for Node.js globaly or in the root of the project.
 
@@ -11,11 +11,11 @@ This is an example using Nodejs to securely query the Xirsys API from a serversi
 
 ex:
 
-	var ident = 'jerrychabolla';
-	var secret = 'iasaiw42o20m240204ij202r0fifjd';
-	var domain = 'www.mydomain.com';
-	var application = 'default';// '[Optional Application]'
-	var room = 'default';//'[Optional Room]';
+	var ident = 'username'; //your username
+	var secret = 'fd50934c-57a5-4ad8-8d11-acae5786bcfb'; //your secret key
+	var domain = 'www.mydomain.com'; //your username
+	var application = 'default'; //your application name
+	var room = 'default'; //your room name
 
 
 4.  Add your secure certificate and key or create a self signed one.
