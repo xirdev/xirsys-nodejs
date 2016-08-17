@@ -74,7 +74,7 @@
     function doIce(){
         $.ajax({
             url: '/webrtc/ice',
-            type: 'GET',
+            type: 'POST',
             dataType: 'json',
             error: function() {
                 $('#iceInfo').empty().append('Error!');
