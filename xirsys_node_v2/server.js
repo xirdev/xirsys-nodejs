@@ -116,7 +116,7 @@ app.get('/webrtc/signal/list',function(req, res){
 });
 
 //Returns a Valid ICE server setup to handle the WebRTC handshake and TURN connection if needed.
-app.get('/webrtc/ice',function(req, res){
+app.post('/webrtc/ice',function(req, res){
     console.log("GET ICE LIST!");
     var o = {
         ident: ident,

@@ -23,15 +23,31 @@ ex:
 ex:
 	
 	key:fs.readFileSync(path.join( __dirname, 'server.key')),
-    cert:fs.readFileSync(path.join( __dirname, 'server.crt'))
+    	cert:fs.readFileSync(path.join( __dirname, 'server.crt'))
 
 5.  From Terminal or a DOS prompt run the server file.
 
 	ex:  node server
 
-6.  Open a browser window and enter https://localhost:8000/test.html 
+6.  Open a browser window and enter https://localhost:8000/webrtc.html or https://localhost:8000/test.html to see the test GUI
 	NOTE:  If using a self signed certificate you will get a warning and you will have to hit proceed from the browser to continue. 
 
+
+
+USING WEBRTC APP
+================
+Run the node server file and browse to https://localhost:8000/webrtc.html.
+
+Login with a name, open a new browser window and browse to the same url and enter a different name.  
+
+Select the user from the list and click the call button.  The other window should have an invite to chat popup, click to confirm.
+
+Notice the events on the node server are called to securely retrieve the lists and tokens for the client chats.
+
+
+USING TEST GUI
+==============
+Run the node server file and browse to https://localhost:8000/test.html.
 
 Click on each button in the GUI to tell node to return the information.  If your info was entered correctly you should see the data populate within the text fields above each button respectfully.
 
