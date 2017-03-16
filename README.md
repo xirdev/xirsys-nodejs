@@ -5,6 +5,8 @@ Querying the Xirsys API with Nodejs
 
 This is an example using Nodejs to securely query the Xirsys API from a serverside counterpart. Although we are using Nodejs in this example you can also use other technologies like PHP, Java, C# or whatever you prefer.
 
+If you are looking for a more simple example of calling our API within node.js see this totorial:  http://xirsys.com/node-js/
+
 ## Start
 
 Download and install the express module for Node.js globaly or in the root of the project.
